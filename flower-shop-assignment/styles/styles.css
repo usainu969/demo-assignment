@@ -233,6 +233,30 @@ button:hover {
     margin-top: 32px;
 }
 
-/* --------social images styles------- */
+/* subscribe styles */
 
+#newsletter{
+    margin: 128px 0;
+}
 
+.newsletter-main{
+    background-image: url('../images/newsletter-bg.png');
+    padding: 122px 0;
+   
+}
+
+#newsletter form{
+    max-width: 800px;
+    margin: 20px auto;
+    display: flex;
+    gap: 18px;
+    
+}
+#newsletter form input{
+    flex-grow: 1;
+    border:none;
+    border-radius: 3px;
+    padding: 10px;
+    font-size: 20px;
+    outline: 1px solid green;
+}
