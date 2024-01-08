@@ -6,6 +6,7 @@
 
 
 /* banner styles */
+
 header {
     background-color: rgba(229, 84, 115, 0.10);
 }
@@ -15,6 +16,7 @@ header {
     width: 75%;
     max-width: 1440px;
     margin: 0 auto;
+
 }
 
 
@@ -25,7 +27,7 @@ header {
 
 }
 
-.banner .banner-text *{
+.banner .banner-text * {
     margin-bottom: 32px;
 }
 
@@ -46,7 +48,9 @@ p {
     font-weight: 400;
     line-height: 30px;
 }
+
 /* button related styles */
+
 button {
     color: #FFF;
     font-size: 20px;
@@ -59,14 +63,173 @@ button {
     cursor: pointer;
     transition: all 1s;
 }
-button:hover{
+
+button:hover {
     background-color: chartreuse;
 }
 
-.banner .banner-img img{
+.banner .banner-img img {
     width: 100%;
     vertical-align: middle;
 }
 
 /* ----------------------------------- */
+
+/* featured section styles */
+
+
+.section-heading {
+    max-width: 500px;
+    text-align: center;
+    margin: 20px auto;
+
+}
+
+.section-heading h2 {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: normal;
+    margin-bottom: 16px;
+}
+
+
+#featured {
+    padding: 100px 0;
+}
+
+
+/* to make the flowers side by side */
+
+.section-content {
+    display: flex;
+    justify-content: space-between;
+    /* to make the images in same bottom line */
+    align-items: end;
+    gap: 20px;
+    padding-top: 48px;
+}
+
+.section-content .flower .flower-img {
+    background-color: rgb(197, 158, 231);
+    border-radius: 300px 300px 0px 0px;
+    padding: 40px 45px 0;
+    height: 500px;
+    display: flex;
+    align-items: end;
+}
+
+.section-content .flower .flower-img img {
+    width: 100%;
+}
+
+
+.section-content .flower .pink {
+    background: rgb(180, 184, 128);
+}
+
+
+.section-content .flower .yellow {
+    background: rgb(224, 125, 216);
+}
+
+
+.section-content .flower .red {
+    background: rgb(214, 130, 151);
+}
+
+.section-content .flower p {
+    color: #140101;
+    text-align: center;
+    margin-top: 16px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35px;
+}
+
+/* icon section styles */
+
+
+.icons-container {
+    width: 1440px;
+    height: 320px;
+    display: flex;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    align-items: center;
+    justify-content: space-between;
+    width: 75%;
+    max-width: 1440px;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+.icon p {
+    color: rgba(39, 39, 39, 0.80);
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 35px;
+    vertical-align: middle;
+    padding-left: 90px;
+    padding-right: 90px;
+}
+
+
+/* offer sections styles */
+
+#hot-deal {
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+}
+
+.container-hot-deal-main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 128px;
+}
+
+.hot-deal-text {
+    max-width: 445px;
+    text-align: center;
+}
+
+#hot-deal .hot-deal-text{
+    width: 75%;
+    max-width: 550px;
+}
+
+.hot-deal-text h2 {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    width: 550px;
+    height: 36px;
+}
+
+.hot-deal-text span {
+    color: #E55473;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+
+
+.hot-deal-text p {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 100;
+    line-height: 30px;
+    width: 500px;
+    height: 45px;
+    margin-top: 24px;
+}
+
+.hot-deal-text button {
+    margin-top: 32px;
+}
 
