@@ -197,7 +197,7 @@ button:hover {
     text-align: center;
 }
 
-#hot-deal .hot-deal-text{
+#hot-deal .hot-deal-text {
     width: 75%;
     max-width: 550px;
 }
@@ -232,4 +232,7 @@ button:hover {
 .hot-deal-text button {
     margin-top: 32px;
 }
+
+/* --------social images styles------- */
+
 
